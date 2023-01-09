@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tour blog site</title>
+    <!-- style.css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <!-- montserrat google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+<!-- //////////slider/////////////////////// -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <!-- start nav bar section////////////////////////////////////////////////////////////////////// -->
+    <nav>
+        <div class="container nav__container">
+            <a href="#"><h4>BANDARBAN</h4></a>
+            <ul class="nav__menu">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="About.html">About</a></li>
+               <li><a href="Course.html">Course</a></li>
+               <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-regular fa-circle-xmark"></i></button>
+           
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer >
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo">
+                    <h4>Mountain</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas accusantium vel explicabo.</p>
+            </div>
+            <div class="footer__2">
+                    <h4>permalinks</h4>
+                    <ul>
+                        <li> <a href="index.html">Home</a> </li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Course.html">courses</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+            </div>
+            <div class="footer__3">
+                    <h4>privacy</h4>
+                    <ul class="privacy">
+                        <li> <a href="#">privacy policy</a> </li>
+                        <li><a href="#">Terms&condition</a></li>
+                        <li><a href="#">Refund policy</a></li>
+                        
+                    </ul>
+            </div>
+            <div class="footer__4">
+                    <h4>Contact us</h4>
+                    <div>
+                        <p>+88 01617645348</p>
+                        <p>gmmasum1999@gmail.com</p>
+                    </div>
+                    <ul class="footer__socials">
+                        <li> <a href="#"><i class="fa-brands fa-facebook"></i></a> </li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+            </div>
+           
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright</small>
+        </div>
+    </footer>
+    <!-- /////////////////////////END FOOTER//////////////////////////////// -->
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./main.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    //   ////////////////when window 600 pixel////////////////
+    breakpoints: {
+        600: {
+            slidesPerView: 2
+        }
+    }
+    });
+  </script>
+</body>
+</html>
